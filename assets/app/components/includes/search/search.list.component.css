@@ -1,0 +1,70 @@
+.search-list{
+    margin-top: 50px !important;
+}
+
+.search-list .card {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: -1px 11px 21px -8px rgba(224,221,224,1);
+    -moz-box-shadow: -1px 11px 21px -8px rgba(224,221,224,1);
+    box-shadow: -1px 11px 21px -8px rgba(224,221,224,1);
+    border-radius: 5px !important;
+}
+
+.search-list .card .card-image{
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    position: relative;
+}
+
+.search-list .card .card-image .card-title{
+    position: absolute;
+    right: 0px;
+}
+
+.search-list .card .card-image .card-title a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.search-list .card .card-image .card-title a .icon{
+    font-size: 17px;
+}
+
+.search-list .card .card-content{
+    padding: 5px 25px !important;
+    text-align: center;
+    position: relative;
+}
+
+.search-list .card .card-content .card-content-wrapper{
+    display: table;
+    height: 50px;
+    overflow: hidden;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.search-list .card .card-content a{
+     font-size: 14px;
+     color: #818282 !important;
+     text-decoration: none;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center !important;
+ }
+
+.search-list .card .card-content a i{
+    padding-top: 3px;
+    font-size: 12px;
+}
+
+
+.search-list .card a{
+    text-decoration: none;
+
+}
+
+.search-list .card a .icon{
+    color: #ffffff;
+}

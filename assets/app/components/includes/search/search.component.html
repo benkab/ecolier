@@ -1,0 +1,39 @@
+<div class="row search {{class}}">
+    <div class="container">
+        <form action="">
+            <div class="row">
+                <div class="input-field s12 search-container">
+                    <i class="material-icons prefix">search</i>
+                    <input
+                            id="icon_prefix"
+                            type="text"
+                            class="search-input"
+                            ngModel
+                            name="search-input"
+                            #search (keyup)="onSearch(search)"
+                            placeholder="Universites, instituts, ecoles, etc..."
+                    >
+                </div>
+            </div>
+            <div class="row search-criteria">
+                <a href="">
+                    <i class="icon ion-android-apps"></i>
+                </a>
+                <a href="">
+                    <i class="icon ion-navicon-round"></i>
+                </a>
+                <a href="">
+                    <i class="icon ion-location"></i>
+                </a>
+                <!--<br>-->
+                    <!--<select>-->
+                        <!--<option value="" disabled selected>Choose your option</option>-->
+                        <!--<option value="1">Option 1</option>-->
+                        <!--<option value="2">Option 2</option>-->
+                        <!--<option value="3">Option 3</option>-->
+                    <!--</select>-->
+            </div>
+        </form>
+    </div>
+</div>
+<search-list></search-list>

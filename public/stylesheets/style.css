@@ -1,0 +1,36 @@
+body, html {
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  background: #F9F9F9;
+  color: #6A6969;
+  margin: 0px;
+}
+
+.section{
+  padding: 0px !important;
+  margin: 0px;
+}
+
+.row{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+router-outler{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+menu{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+
+
+@media screen and (max-width: 490px) {
+
+
+
+}
